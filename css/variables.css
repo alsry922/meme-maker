@@ -2,5 +2,9 @@
   --page-bg-color: #ecf0f1;
   --canvas-shadow: 0px 10px 13px -7px #000000,
     0px 5px 10px 3px rgba(0, 0, 0, 0.23);
-  --controls-bg-color: #ede9c1;
+  --controls-bg-color: #969691;
+  --controls-border-color: #a29bfe;
+  --font-family: "Mouse Memoirs", sans-serif;
+  --btn-color: #e1b12c;
+  --range-color: #e1b12c;
 }
