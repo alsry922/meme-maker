@@ -1,0 +1,27 @@
+.controls {
+  width: 650px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--controls-bg-color);
+  border-radius: 24px;
+  animation: controlsAnima 0.5s ease-out forwards;
+}
+
+.controls__top {
+  flex-grow: 1;
+}
+
+.controls__bottom {
+  flex-grow: 1;
+}
+@keyframes controlsAnima {
+  from {
+    opacity: 0;
+    transform: translateX(500px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0);
+  }
+}

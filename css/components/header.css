@@ -5,24 +5,24 @@
   align-items: center;
   height: 10%;
   font-family: "Mouse Memoirs", sans-serif;
-  animation: headerAnima 2s linear forwards;
+  animation: headerAnima 1.5s ease-in forwards;
 }
 
 @keyframes headerAnima {
   0%,
-  75% {
+  50% {
     transform: translateY(-500px);
+  }
+  60% {
+    transform: translateY(0px);
+  }
+  70% {
+    transform: translateY(-50px);
   }
   80% {
     transform: translateY(0px);
   }
-  85% {
-    transform: translateY(-50px);
-  }
   90% {
-    transform: translateY(0px);
-  }
-  95% {
     transform: translateY(-20px);
   }
   100% {
